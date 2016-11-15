@@ -13,7 +13,7 @@ public class AndroidSYSinfoActivity extends AppCompatActivity {
     //http://doc.artofweb.ru/doc/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_Android
     // Метод onCreate() принимает объект Bundle, содержащий состояние пользовательского интерфейса,
     // сохраненное в последнем вызове обработчика onSaveInstanceState
-
+    // new comment for test
 
     public void onCreate(Bundle savedInstanceState) {
         // при реализации метода всегда нужно вызывать метод суперкласса
