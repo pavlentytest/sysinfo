@@ -21,10 +21,11 @@ public class AndroidSYSinfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_android_sysinfo);
 
 
-       // Log.e(TAG, "Найдем TextView элемент...");
-       // Log.d(TAG, "DEBAG!!!!!!");
-        TextView SYSinfo = (TextView) findViewById(R.id.SYSinfo);
-        SYSinfo.setText(ReadSYSinfo());
+        //Log.e(TAG, "Найдем TextView элемент...");
+        //Log.d(TAG, "DEBAG!!!!!!");
+
+        //TextView SYSinfo = (TextView) findViewById(R.id.SYSinfo);
+        //SYSinfo.setText(ReadSYSinfo());
 
       //  Log.e(TAG, "Done...");
     }
@@ -38,9 +39,8 @@ public class AndroidSYSinfoActivity extends AppCompatActivity {
         getProperty("OS", "os.name", SYSinfoBuffer);
         getProperty("Version", "os.version", SYSinfoBuffer);
 
-        getProperty("URL vendor", "java.vendor.url", SYSinfoBuffer);
-        getProperty("JAVA version", "java.version", SYSinfoBuffer);
-
+        //getProperty("URL vendor", "java.vendor.url", SYSinfoBuffer);
+        //getProperty("JAVA version", "java.version", SYSinfoBuffer);
 
         return SYSinfoBuffer.toString();
     }
