@@ -39,8 +39,8 @@ public class AndroidSYSinfoActivity extends AppCompatActivity {
         getProperty("OS", "os.name", SYSinfoBuffer);
         getProperty("Version", "os.version", SYSinfoBuffer);
 
-        //getProperty("URL vendor", "java.vendor.url", SYSinfoBuffer);
-        //getProperty("JAVA version", "java.version", SYSinfoBuffer);
+        getProperty("URL vendor", "java.vendor.url", SYSinfoBuffer);
+        getProperty("JAVA version", "java.version", SYSinfoBuffer);
 
         return SYSinfoBuffer.toString();
     }
