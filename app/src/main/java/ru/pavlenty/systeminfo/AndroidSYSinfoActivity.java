@@ -24,8 +24,8 @@ public class AndroidSYSinfoActivity extends AppCompatActivity {
         //Log.e(TAG, "Найдем TextView элемент...");
         //Log.d(TAG, "DEBAG!!!!!!");
 
-        //TextView SYSinfo = (TextView) findViewById(R.id.SYSinfo);
-        //SYSinfo.setText(ReadSYSinfo());
+        TextView SYSinfo = (TextView) findViewById(R.id.SYSinfo);
+        SYSinfo.setText(ReadSYSinfo());
 
       //  Log.e(TAG, "Done...");
     }
